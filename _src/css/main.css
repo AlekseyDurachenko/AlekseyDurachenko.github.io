@@ -1,5 +1,5 @@
 body {
-    background-color: #ebebeb;
+    background-color: /*#ebebeb;*/ #ffffff;
     color: #000000;
     font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
     font-size: 16px;
@@ -8,17 +8,6 @@ body {
 
 * {
     margin: 0px;
-}
-
-.page {
-    margin: 0px;
-    padding: 0px;
-}
-
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1000px;
 }
 
 .nav-main {
@@ -61,18 +50,42 @@ body {
     color: #000000;
 }
 
-.footer {
-    text-align: center;
-    margin: 0px;
-    padding: 5px;
+.container {
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+.ctrl {
+    float: left;
+    width: 275px;
+    display: inline-block;
+}
+
+.avatar {
+    padding: 10px;
+}
+
+.nav-content {
+    padding: 10px;
 }
 
 .content {
-    background-color: #ffffff;
+    float: right;
+    max-width: 705px;
     margin: 0px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .content > p {
     margin: 0.5em;
+}
+
+.footer {
+    border-top: 1px solid #dddddd;
+    clear: both;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
 }
