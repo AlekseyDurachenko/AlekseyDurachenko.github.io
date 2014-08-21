@@ -60,7 +60,6 @@ body {
 .ctrl {
     float: left;
     width: 275px;
-    display: inline-block;
 }
 
 .avatar {
@@ -71,9 +70,16 @@ body {
     padding: 10px;
 }
 
+.nav-content > ul {
+    list-style: square;
+    margin: 0px;
+    padding: 20px;
+}
+
 .content {
-    float: right;
-    max-width: 705px;
+    float: left;
+    /*max-width: 705px;*/
+    width: 705px;
     margin: 0px;
     padding: 10px;
 }
