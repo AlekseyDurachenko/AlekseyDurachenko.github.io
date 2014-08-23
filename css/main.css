@@ -10,6 +10,13 @@ body {
     margin: 0px;
 }
 
+pre {
+    padding: 0.5em;
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+}
+
 .nav-main {
     background-color: #445263;
     text-align: center;
