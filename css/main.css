@@ -75,23 +75,20 @@ pre {
 }
 
 .nav-content {
-    margin: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
 }
 
 .nav-content > ul {    
     list-style: square;
-    margin: 0px 30px 30px 0px;
-    padding: 0px;
+    padding-left: 20px;
 }
 
 .nav-content > ul > li {
-    margin: 0.5em;
+    margin: 0.2em;
 	font-weight: 300;
-	list-style-type: none;
 }
 
 .nav-content > ul > li > a {
@@ -131,6 +128,48 @@ pre {
 }
 
 .content > ul > li > a:hover {
+	color: #0000ff;
+    text-decoration: underline;
+}
+
+
+.content-project {
+    background-color: #efefef;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.content-project p {
+    margin: 0.5em;
+    text-indent: 1em;
+}
+
+.content-project a {
+	color: #0000ff;
+    text-decoration: none;
+}
+
+.content-project a:hover {
+	color: #0000ff;
+    text-decoration: underline;
+}
+
+.content-project ul {    
+    list-style: square;
+}
+
+.content-project ul > li {
+    margin: 0.5em;
+	font-weight: 300;
+}
+
+.content-project ul > li > a {
+	color: #0000ff;
+    text-decoration: none;
+}
+
+.content-project ul > li > a:hover {
 	color: #0000ff;
     text-decoration: underline;
 }

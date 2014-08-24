@@ -1,7 +1,7 @@
-@ID: vkDevastator
-@TITLE: vkDevastator - очистка социальной сети ВКонтакте
+@ID: sciencebeat
+@TITLE: sciencebeat - слушаем землю
 @LINK: https://github.com/AlekseyDurachenko/vkDevastator
-@TAGS: ВКонтакте, скрипты, python
+@TAGS: Qt, C++, Audio
 @!
 
 Русский текст
