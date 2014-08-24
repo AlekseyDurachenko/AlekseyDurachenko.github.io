@@ -1,25 +1,10 @@
 @ID: vkDevastator
-@TITLE: vkDevastator - очистка социальной сети ВКонтакте
+@TITLE: vkDevastator
 @LINK: https://github.com/AlekseyDurachenko/vkDevastator
-@TAGS: ВКонтакте, скрипты, python
+@TAGS: ВКонтакте, python
 @!
 
-Русский текст
+Набор скриптов, позволяющий найти и удалить фотографии, 
+комментарии, заметки и т.д. оставленные пользователем в социальной сети ВКонтакте.
 
-#The lagest html page
-
-```c
-int main(void a)
-{
-    printf("test test\n");
-}
-```
-
-* markdown
-  - test
-  - test 2
-
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+Необходимость данных скриптом связана с тем, что штатными средствами сделать это невозможно.
