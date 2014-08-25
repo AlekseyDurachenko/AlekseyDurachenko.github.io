@@ -1,0 +1,9 @@
+@ID: QtFlexibleArray
+@TITLE: QtFlexibleArray
+@LINK: https://github.com/AlekseyDurachenko/QtFlexibleArray
+@TAGS: Qt, C++, component
+@!
+
+Компонент предоставляющий универсальный интерфейс для работы
+с непрерывным массивом данных. Физически данные могут храниться
+в различных моделях памяти.

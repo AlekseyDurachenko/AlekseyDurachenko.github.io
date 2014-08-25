@@ -1,0 +1,7 @@
+@ID: BackupTheBerliOS
+@TITLE: BackupTheBerliOS
+@LINK: https://github.com/AlekseyDurachenko/BackupTheBerliOS
+@TAGS: python, backup, berlios
+@!
+
+Скрипты для создание резервной копии ресурса [http://developer.berlios.de/].

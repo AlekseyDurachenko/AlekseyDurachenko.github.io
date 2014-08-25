@@ -1,0 +1,7 @@
+@ID: vkPhotoSync
+@TITLE: vkPhotoSync
+@LINK: https://github.com/AlekseyDurachenko/vkPhotoSync
+@TAGS: ВКонтакте, C++, Qt, photo
+@!
+
+Загрузчик фотографий из социальной сети ВКонтакте.

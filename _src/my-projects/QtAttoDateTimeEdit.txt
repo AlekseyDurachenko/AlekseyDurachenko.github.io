@@ -1,0 +1,7 @@
+@ID: QtAttoDateTimeEdit
+@TITLE: QtAttoDateTimeEdit
+@LINK: https://github.com/AlekseyDurachenko/QtAttoDateTimeEdit
+@TAGS: Qt, C++, component, time
+@!
+
+Компонент для редактирования QtAttoDateTime.

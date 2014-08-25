@@ -1,0 +1,7 @@
+@ID: creepinglinecreator
+@TITLE: creepinglinecreator
+@LINK: https://github.com/AlekseyDurachenko/creepinglinecreator
+@TAGS: Qt, C++, video
+@!
+
+Создание бегущей строки и сохранение её в виде видеофайла.

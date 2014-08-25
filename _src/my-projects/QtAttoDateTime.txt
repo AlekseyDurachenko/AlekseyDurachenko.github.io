@@ -1,0 +1,7 @@
+@ID: QtAttoDateTime
+@TITLE: QtAttoDateTime
+@LINK: https://github.com/AlekseyDurachenko/QtAttoDateTime
+@TAGS: Qt, C++, component, time
+@!
+
+Компонент для представления датывремени с точностью до аттосекунды.

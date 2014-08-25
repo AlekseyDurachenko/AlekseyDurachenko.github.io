@@ -1,0 +1,7 @@
+@ID: QtArgumentParser
+@TITLE: QtArgumentParser
+@LINK: https://github.com/AlekseyDurachenko/QtArgumentParser
+@TAGS: Qt, C++, component, parcer
+@!
+
+Компонент для разбора аргументов запуска приложения.

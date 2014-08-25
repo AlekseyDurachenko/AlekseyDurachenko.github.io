@@ -1,0 +1,7 @@
+@ID: Ambience
+@TITLE: Ambience
+@LINK: https://github.com/AlekseyDurachenko/Ambience
+@TAGS: Qt, C++, Audio
+@!
+
+Простой редактор волновых форм.

@@ -1,0 +1,7 @@
+@ID: vkOAuth
+@TITLE: vkOAuth
+@LINK: https://github.com/AlekseyDurachenko/vkOAuth
+@TAGS: ВКонтакте, C++, Qt, OAuth
+@!
+
+OAuth авторизация в социальной сети ВКонтакте.
