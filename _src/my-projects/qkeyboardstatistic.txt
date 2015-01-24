@@ -1,8 +1,0 @@
-@ID: qkeyboardstatistic
-@TITLE: qkeyboardstatistic
-@LINK: https://code.google.com/p/qkeyboardstatistic/
-@TAGS: Qt, C++, keyboard
-@!
-
-Простая программа для сбора статистики кол-ва нажатых клавиш 
-и пробега курсора мыши.

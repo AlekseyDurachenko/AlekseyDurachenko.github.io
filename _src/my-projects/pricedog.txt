@@ -1,7 +1,0 @@
-@ID: pricedog
-@TITLE: pricedog
-@LINK: https://github.com/AlekseyDurachenko/pricedog
-@TAGS: python, shop
-@!
-
-Набор скриптов, позволяющих отслеживать динамику изменения стоимости товаров.

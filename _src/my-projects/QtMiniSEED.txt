@@ -1,7 +1,0 @@
-@ID: QtMiniSEED
-@TITLE: QtMiniSEED
-@LINK: https://github.com/AlekseyDurachenko/QtMiniSEED
-@TAGS: Qt, C++, component, miniseed, seismology
-@!
-
-Компонент для работы с сейсмологическим форматом данных MiniSEED.

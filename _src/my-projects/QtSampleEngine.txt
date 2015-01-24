@@ -1,7 +1,0 @@
-@ID: QtSampleEngine
-@TITLE: QtSampleEngine
-@LINK: https://github.com/AlekseyDurachenko/QtSampleEngine
-@TAGS: Qt, C++, component, signal
-@!
-
-Компонент для визуализации одномерных сигналов.

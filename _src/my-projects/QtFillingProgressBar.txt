@@ -1,7 +1,0 @@
-@ID: QtFillingProgressBar
-@TITLE: QtFillingProgressBar
-@LINK: https://github.com/AlekseyDurachenko/QtFillingProgressBar
-@TAGS: Qt, C++, component
-@!
-
-Компонент для отображения прогрессбага.

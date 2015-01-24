@@ -1,7 +1,0 @@
-@ID: QtLongLongSpinBox
-@TITLE: QtLongLongSpinBox
-@LINK: https://github.com/AlekseyDurachenko/QtLongLongSpinBox
-@TAGS: Qt, C++, component
-@!
-
-Компонент для редактирования 64х битных целых чисел.
