@@ -1,0 +1,11 @@
+# Site settings
+title: /dev/null
+email: durachenko.aleksey@gmail.com
+description: >
+  /dev/null
+baseurl: ""
+url: "https://alekseydurachenko.github.io"
+github_username: alekseydurachenko.github.io
+
+# Build settings
+markdown: kramdown

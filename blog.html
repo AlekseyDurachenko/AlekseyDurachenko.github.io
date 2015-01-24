@@ -1,0 +1,17 @@
+---
+layout: page
+title: Blog
+permalink: /blog.html
+---
+{% for post in site.posts %}
+  <div class="blog-content">  
+  <h3 class="text-center">
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </h3>
+
+  <p class="text-right blog-datetext">{{ post.date | date: "%-d %B, %Y"}}</p>
+  {{ post.content | split:'<!--more-->' | first }}
+  </div>
+  <p class="text-left"><a href="{{ post.url | prepend: site.baseurl }}">Read more...</a></p>
+  <p class="text-left">Tags: <a href="#">{{ post.tags | join: '</a>, <a href="#">' }}</a></p>
+{% endfor %}
