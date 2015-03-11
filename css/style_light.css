@@ -1,0 +1,40 @@
+body {
+  font-family: 'Droid Sans Mono';
+  font-size: 16px;  
+  padding-top: 50px;
+}
+
+.blog-content {
+  text-align: justify;
+  text-indent: 50px;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #dddddd;
+}
+
+.page-header {
+  border-bottom: 0px solid #dddddd;
+}
+
+.blog-datetext {
+  text-decoration: underline;
+  color: #666666;
+}
+
+code {
+  font-family: 'Droid Sans Mono';
+  font-size: 15px;
+  text-indent: 0px;
+  text-indent: 0px;
+}
+
+pre {
+  font-family: 'Droid Sans Mono';
+  font-size: 15px;
+  text-align: left;
+  text-indent: 0px;
+}
