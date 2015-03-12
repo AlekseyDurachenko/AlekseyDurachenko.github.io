@@ -1,40 +1,59 @@
 ---
 layout: post
-title:  "Test post"
-date:   2015-01-24 16:23:00
-tags: test post
+title : "Заставляем работать связку: python, notify2, crontab"
+date  : 2015-03-12 22:30:00
+tags  : python linux crontab x11 dbus
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+При реализации [скрипта](https://github.com/AlekseyDurachenko/podfmdog)
+автоматической загрузки новых подкастов с сайта [podfm.ru](http://podfm.ru)
+возникла необходимость внедрения уведомлений на рабочем столе о появлении новых файлов. 
+Для решения этой задачи была выбрана библитека notify2. И все работало хорошо, до тех пор, 
+пока не потребовась запускать скрипт по расписанию в crontab...
 
 <!--more-->
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Ниже приведен код скрипта, который позволяет вывести уведомление на рабочий стол:
+{% highlight python %}
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+import notify2
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight cpp %}
-#include <QtWindowListMenu>
-#include <QMessageBox>
-#include <QFileDialog>
-
-CHostWindow::CHostWindow(QWidget *parent) :
-    QMainWindow(parent), ui(new Ui::HostWindow)
-{
-    G_SETTINGS_INIT();
-
-    // Restore the hostwindow state
-    foreach (QString pluginId,
-             settings.value("CHostWindow/activeDockPlugins").toStringList())
-    {
-        activateDockPlugin(pluginId.toAscii());
-    }
-    restoreState(settings.value("CHostWindow/state", saveState()).toByteArray());
-    restoreGeometry(settings.value("CHostWindow/geometry", saveGeometry()).toByteArray());
-}
+notify2.init("podfmdog")
+notify = notify2.Notification("Title", "Message")
+notify.show()                  
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+![Результат работы скрипта](/img/posts/2015-03-12-python-notify2-crontab/screenshot-notify2.png){: .center-image }
+Результат работы скрипта
+{: .center-text}
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+При попытке запустить этот скрипт в crontab появляется сообщении об ошибке:
+{% highlight bash %}
+Traceback (most recent call last):
+  File "<PATH>/my1.py", line 5, in <module>
+    notify2.init("podfmdog")
+  File "/usr/lib/python3/dist-packages/notify2.py", line 93, in init
+    bus = dbus.SessionBus(mainloop=mainloop)
+  File "/usr/lib/python3/dist-packages/dbus/_dbus.py", line 211, in __new__
+    mainloop=mainloop)
+  File "/usr/lib/python3/dist-packages/dbus/_dbus.py", line 100, in __new__
+    bus = BusConnection.__new__(subclass, bus_type, mainloop=mainloop)
+  File "/usr/lib/python3/dist-packages/dbus/bus.py", line 122, in __new__
+    bus = cls._new_for_bus(address_or_type, mainloop=mainloop)
+dbus.exceptions.DBusException: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+{% endhighlight %}
+
+Проблема заключается в том, что notify2 необходимо знать адрес пользовательской
+шины dbus. Для этого перед запуском скрипта нам необходимо экспортировать 
+переменную окружения `DBUS_SESSION_BUS_ADDRESS`. Сделать это можно следующим образом:
+{% highlight bash %}
+...
+USERNAME=`whoami`
+...
+export DBUS_SESSION_BUS_ADDRESS=`ps -u $USERNAME e | grep -Eo 'dbus-daemon.*address=unix:abstract=/tmp/dbus-[A-Za-z0-9]{10}' | tail -c35`
+...
+{% endhighlight %}
+Полный код скрипта можно взять [здесь](https://gist.github.com/AlekseyDurachenko/2027114608e4863eb038). 
+Следует отметить, что скрипт должен вызываться из crontab от имени пользователя с активной 
+сессией x11.

@@ -38,3 +38,14 @@ pre {
   text-align: left;
   text-indent: 0px;
 }
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
+.center-text
+{
+  text-align: center;
+}
