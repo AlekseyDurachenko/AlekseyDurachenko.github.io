@@ -5,8 +5,19 @@ layout: default
 <h3 class="text-center">
   <a href="{{ post.url | prepend: site.baseurl }}">{{ page.title }}</a>
 </h3>
-<p class="text-right blog-datetext">{{ page.date | date: "%-d %B, %Y"}}</p>
+  <p class="blog-datetext"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> {{ page.date | date: "%Y.%m.%d %H:%M"}}</p>
+  <br>
+  
 {{ content }}
+
+  <hr>
+  <p class="tags">
+  {% for tag in page.tags %}
+    <button class="btn btn-primary" type="button">
+     <span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+      {{tag}} <span class="badge">{{ site.tags[tag].size }}</span>
+    </button>
+  {% endfor %}
+  </p>
+  
 </div>
-<br><br>
-<p class="text-left">Tags: <a href="#">{{ page.tags | join: '</a>, <a href="#">' }}</a></p>  

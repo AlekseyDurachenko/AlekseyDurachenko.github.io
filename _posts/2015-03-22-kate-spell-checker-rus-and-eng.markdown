@@ -1,11 +1,12 @@
 ---
 layout: post
 title : "Настройка проверки орфографии в kate с помощью пользовательского словаря"
-date  : 2015-03-22 18:31:00
+date  : 2015-03-22 18:31:00 UTC
 tags  : linux kde kate hunspell myspell
 ---
 
 ![kate и проверка орфографии английским словарем](/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-without-russian-dict.png){: .center-image }
+
 kate и проверка орфографии английским словарем
 {: .center-text}
 
@@ -20,6 +21,7 @@ kate и проверка орфографии английским словар�
 <!--more-->
 
 ![настройка проверки орфографии в kate](/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-configure-spellcheck.png){: .center-image }
+
 настройка проверки орфографии в kate
 {: .center-text}
 
@@ -37,34 +39,38 @@ kate и проверка орфографии английским словар�
 [https://github.com/arty-name/hunspell-merge](https://github.com/arty-name/hunspell-merge)
 
 ![hunspell-merge](/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/hunspell-merge.png){: .center-image }
+
 hunspell-merge
 {: .center-text}
 
 Далее я создал собственный составной словарь из русского и английского словарей.
 
 Внимание! Описанная ниже процедура установки словарей производится на свой страх и риск!
-{: .bg-danger}
+{: .alert .alert-danger}
 
-К сожалению, я не нашел способа устанавливать словари в домашний каталог,
+<div class="alert alert-warning">
+<p>К сожалению, я не нашел способа устанавливать словари в домашний каталог,
 и решил оставить этот вопрос на потом, а пока записать файлы на место
-словаря `hunspell-ru`, предварительно удалив его из системы.
+словаря `hunspell-ru`, предварительно удалив его из системы.</p>
+<p style="margin-top: 1.0em">
 {% highlight bash %}
 sudo apt-get remove hunspell-ru
 sudo cp ru_RU.* /usr/share/hunspell/
 {% endhighlight %}
+</p>
+</div>
 
 Теперь при выборе языка проверки орфографии `Russian (Russia)`
 используется созданный мной составной словарь.
 
 ![результат](/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-result.png){: .center-image }
+
 результат
 {: .center-text}
 
-
 ### Ссылки ###
+* [https://bugs.kde.org/show_bug.cgi?id=66516](https://bugs.kde.org/show_bug.cgi?id=66516) - Bug 66516 - spell checker: automatic language detection
 
-[https://bugs.kde.org/show_bug.cgi?id=66516](https://bugs.kde.org/show_bug.cgi?id=66516) - Bug 66516 - spell checker: automatic language detection
+* [http://manpages.ubuntu.com/manpages/dapper/man4/hunspell.4.html](http://manpages.ubuntu.com/manpages/dapper/man4/hunspell.4.html) - format of Hunspell dictionaries and affix files
 
-[http://manpages.ubuntu.com/manpages/dapper/man4/hunspell.4.html](http://manpages.ubuntu.com/manpages/dapper/man4/hunspell.4.html) - format of Hunspell dictionaries and affix files
-
-[https://github.com/arty-name/hunspell-merge](https://github.com/arty-name/hunspell-merge) - Software for merging several hunspell dictionaries
+* [https://github.com/arty-name/hunspell-merge](https://github.com/arty-name/hunspell-merge) - Software for merging several hunspell dictionaries

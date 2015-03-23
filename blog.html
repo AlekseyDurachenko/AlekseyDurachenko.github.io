@@ -7,11 +7,22 @@ permalink: /blog.html
   <div class="blog-content">  
   <h3 class="text-center">
     <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-  </h3>
+  </h3>    
+  <p class="blog-datetext"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> {{ post.date | date: "%Y.%m.%d %H:%M"}}</p>
+  <br>
+  
+  {{ post.content | split:'<!--more-->' | first }}  
+  <p class="button-lean-more"><a class="btn btn-primary btn-lg" href="{{ post.url | prepend: site.baseurl }}" role="button">Читать статью</a></p>
 
-  <p class="text-right blog-datetext">{{ post.date | date: "%-d %B, %Y"}}</p>
-  {{ post.content | split:'<!--more-->' | first }}
+  <hr>
+  <p class="tags">
+  {% for tag in post.tags %}
+    <button class="btn btn-primary" type="button">
+     <span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+      {{tag}} <span class="badge">{{ site.tags[tag].size }}</span>
+    </button>
+  {% endfor %}
+  </p>
+  
   </div>
-  <p class="text-left"><a href="{{ post.url | prepend: site.baseurl }}">Read more...</a></p>
-  <p class="text-left">Tags: <a href="#">{{ post.tags | join: '</a>, <a href="#">' }}</a></p>
 {% endfor %}

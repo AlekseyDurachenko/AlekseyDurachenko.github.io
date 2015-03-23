@@ -2,11 +2,40 @@ body {
   font-family: 'Droid Sans Mono';
   font-size: 16px;  
   padding-top: 50px;
+  background: #EDEDED;
 }
 
 .blog-content {
+  background: #FFFFFF;
+  padding: 1em 3em 1em 3em;
+  border: 1px solid #BBB;
+  box-shadow: #cfcfcf 2px 2px 1px 0px;
+  border-radius: 4px;
+  margin-bottom: 1em;
+  margin-top: 1em;
   text-align: justify;
-  text-indent: 50px;
+  text-indent: 3em;
+}
+
+.blog-content > p.button-lean-more {
+  padding-left: 3em;
+  text-indent: 0em;
+}
+
+.blog-content > p.tags {
+  text-indent: 0em;
+  line-height: 3em;
+  text-align: center;
+}
+
+.blog-content > ul > li > p {
+  text-indent: 0.5em;
+  text-align: left;
+}
+
+.blog-content > ul > li {
+  text-indent: 0.5em;
+  text-align: left;
 }
 
 .footer {
@@ -21,7 +50,9 @@ body {
 }
 
 .blog-datetext {
-  text-decoration: underline;
+/*  text-decoration: underline;*/
+  text-align: right;
+  text-indent: 0em;
   color: #666666;
 }
 

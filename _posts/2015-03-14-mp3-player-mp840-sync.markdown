@@ -1,11 +1,12 @@
 ---
 layout: post
 title : "Автоматическая синхронизация flash памяти MP3 плеера с локальным каталогом"
-date  : 2015-03-14 22:09:00
+date  : 2015-03-14 22:09:00 UTC
 tags  : bash rsync linux udev dbus sync
 ---
 
 ![Transcend MP840](/img/posts/2015-03-14-mp3-player-mp840-sync/mp840-photo.png){: .center-image }
+
 Transcend MP840
 {: .center-text}
 
@@ -105,7 +106,6 @@ exit 0
 
 ### Ссылки ###
 
-[http://reactivated.net/writing_udev_rules.html](http://reactivated.net/writing_udev_rules.html) - writing udev rules by Daniel Drake (dsd)
+* [http://reactivated.net/writing_udev_rules.html](http://reactivated.net/writing_udev_rules.html) - writing udev rules by Daniel Drake (dsd)
 
-[https://gist.github.com/AlekseyDurachenko/335e3ca333a70d16a101](https://gist.github.com/AlekseyDurachenko/335e3ca333a70d16a101) 
-- скрипт синхронизации
+* [https://gist.github.com/AlekseyDurachenko/335e3ca333a70d16a101](https://gist.github.com/AlekseyDurachenko/335e3ca333a70d16a101) - скрипт синхронизации

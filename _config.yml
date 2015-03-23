@@ -9,3 +9,5 @@ github_username: alekseydurachenko.github.io
 
 # Build settings
 markdown: kramdown
+
+timezone:    Aisa/Novosibirsk

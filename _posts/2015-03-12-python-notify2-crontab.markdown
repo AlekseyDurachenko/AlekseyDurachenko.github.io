@@ -1,7 +1,7 @@
 ---
 layout: post
 title : "Заставляем работать связку: python, notify2, crontab"
-date  : 2015-03-12 22:30:00
+date  : 2015-03-12 22:30:00 UTC
 tags  : python linux crontab x11 dbus
 ---
 
