@@ -5,7 +5,7 @@ date  : 2015-03-22 18:31:00 UTC
 tags  : linux kde kate hunspell myspell
 ---
 
-![kate и проверка орфографии английским словарем](/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-without-russian-dict.png){: .center-image }
+![kate и проверка орфографии английским словарем](/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-without-russian-dict.png){: .center-image .img-responsive }
 
 kate и проверка орфографии английским словарем
 {: .center-text}
@@ -20,7 +20,7 @@ kate и проверка орфографии английским словар�
 
 <!--more-->
 
-![настройка проверки орфографии в kate](/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-configure-spellcheck.png){: .center-image }
+![настройка проверки орфографии в kate](/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-configure-spellcheck.png){: .center-image .img-responsive }
 
 настройка проверки орфографии в kate
 {: .center-text}
@@ -38,7 +38,7 @@ kate и проверка орфографии английским словар�
 недолгого гугления удалось найти готовое решение:
 [https://github.com/arty-name/hunspell-merge](https://github.com/arty-name/hunspell-merge)
 
-![hunspell-merge](/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/hunspell-merge.png){: .center-image }
+![hunspell-merge](/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/hunspell-merge.png){: .center-image .img-responsive }
 
 hunspell-merge
 {: .center-text}
@@ -63,7 +63,7 @@ sudo cp ru_RU.* /usr/share/hunspell/
 Теперь при выборе языка проверки орфографии `Russian (Russia)`
 используется созданный мной составной словарь.
 
-![результат](/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-result.png){: .center-image }
+![результат](/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-result.png){: .center-image .img-responsive }
 
 результат
 {: .center-text}

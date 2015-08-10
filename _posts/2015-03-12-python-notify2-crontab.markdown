@@ -24,7 +24,7 @@ notify = notify2.Notification("Title", "Message")
 notify.show()                  
 {% endhighlight %}
 
-![результат работы скрипта](/img/posts/2015-03-12-python-notify2-crontab/screenshot-notify2.png){: .center-image }
+![результат работы скрипта](/img/posts/2015-03-12-python-notify2-crontab/screenshot-notify2.png){: .center-image .img-responsive }
 результат работы скрипта
 {: .center-text}
 

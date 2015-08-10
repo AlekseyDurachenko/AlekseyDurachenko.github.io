@@ -73,6 +73,10 @@ pre {
   text-indent: 0px;
 }
 
+a {
+  word-wrap: break-word;
+}
+
 .center-image
 {
     margin: 0 auto;
