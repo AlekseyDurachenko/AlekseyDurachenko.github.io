@@ -1,23 +1,21 @@
 ---
 layout: default
 ---
-<div class="blog-content">  
-<h3 class="text-center">
-  <a href="{{ post.url | prepend: site.baseurl }}">{{ page.title }}</a>
-</h3>
+<div class="blog-content blog-red-line">  
+  <h3 class="text-center">
+    <p>{{ page.title }}</p>
+  </h3>
   <p class="blog-datetext"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> {{ page.date | date: "%Y.%m.%d %H:%M"}}</p>
   <br>
-  
-{{ content }}
+
+  {{ content }}
 
   <hr>
   <p class="tags">
   {% for tag in page.tags %}
-    <button class="btn btn-primary" type="button">
-     <span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
-      {{tag}} <span class="badge">{{ site.tags[tag].size }}</span>
-    </button>
+    <a class="btn btn-primary" href="/tags.html#{{tag}}">
+      <span class="glyphicon glyphicon-tag" aria-hidden="true"></span>{{tag}} <span class="badge">{{ site.tags[tag].size }}</span>
+    </a>
   {% endfor %}
   </p>
-  
 </div>

@@ -1,8 +1,8 @@
 # Site settings
-title: /dev/null
+title: alekseydurachenko.github.io
 email: durachenko.aleksey@gmail.com
 description: >
-  /dev/null
+  Персональный блог
 baseurl: ""
 url: "https://alekseydurachenko.github.io"
 github_username: alekseydurachenko.github.io
