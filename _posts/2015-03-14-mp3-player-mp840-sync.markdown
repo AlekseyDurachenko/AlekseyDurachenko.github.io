@@ -82,7 +82,9 @@ then
 fi
 
 # synchronization: mirror
-rsync -va --delete /home/username/MySync/TranscendMP840/sdcard/ /media/MP840/sdcard/
+# rsync -va --delete /home/username/MySync/TranscendMP840/sdcard/ /media/MP840/sdcard/
+# compare only by size
+rsync -vr --delete --size-only /home/username/MySync/TranscendMP840/sdcard/ /media/MP840/sdcard/
 
 # operation may take a long time, due to `async` in the /etc/fstab
 umount -l /media/MP840
