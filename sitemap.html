@@ -9,7 +9,7 @@ permalink: /sitemap.html
 
   <ul class="text-left">
     <!--li><a href="/index.html">Главная</a></li-->
-    <li><a href="/blog.html">Блог</a>
+    <li><a href="/index.html">Блог</a>
       <ul>
       {% for post in site.posts %}
         <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%Y.%m.%d %H:%M"}} - {{ post.title }}</a></li>
