@@ -1,7 +1,7 @@
 ---
 layout: post
 title : "Вытяжка для паяльной станции из подручных материалов"
-date  : 2016-03-26 19:59:00 UTC
+date  : 2016-03-26 14:58:00 UTC
 tags  : handmade solderings instrument
 ---
 
