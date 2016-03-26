@@ -2,7 +2,7 @@
 layout: post
 title : "Вытяжка для паяльной станции из подручных материалов"
 date  : 2016-03-26 19:59:00 UTC
-tags  : handmade electronic air-extractor solderings-station instrument
+tags  : handmade solderings instrument
 ---
 
 ![вытяжка для паяльной станции](/img/posts/2016-03-26-air-extractor/air-extractor.jpg){: .center-image .img-responsive }
