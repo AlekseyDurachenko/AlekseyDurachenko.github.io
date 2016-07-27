@@ -12,9 +12,9 @@ tags  : []
     Привязка фотографий к географическим координатам
   </div>
   <div class="panel-body">
-    {% highlight bash %}
-      exiftool -overwrite_original -geosync=+07:00:00 -geotag=track.gpx *.JPG
-    {% endhighlight %}   
+{% highlight bash %}
+exiftool -overwrite_original -geosync=+07:00:00 -geotag=track.gpx *.JPG
+{% endhighlight %}   
     <ul>
       <li><b>overwrite_original</b> - перезапись исходных файлов;</li>
       <li><b>geosync=+07:00:00</b> - коррекция времени.</li>
