@@ -5,7 +5,7 @@ date  : 2015-03-22 18:31:00 UTC
 tags  : linux kde kate hunspell myspell
 ---
 
-<figure>
+<figure class="post-image">
 <img src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-without-russian-dict.png">
 <figcaption>Kate и проверка орфографии английским словарем.</figcaption>
 </figure>
@@ -22,7 +22,7 @@ tags  : linux kde kate hunspell myspell
 <!--more-->
 
 
-<figure>
+<figure class="post-image">
 <img src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-configure-spellcheck.png">
 <figcaption>Настройка проверки орфографии в kate.</figcaption>
 </figure>
@@ -42,7 +42,7 @@ tags  : linux kde kate hunspell myspell
 [https://github.com/arty-name/hunspell-merge](https://github.com/arty-name/hunspell-merge)
 
 
-<figure>
+<figure class="post-image">
 <img src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/hunspell-merge.png">
 <figcaption>Окно программы hunspell-merge.</figcaption>
 </figure>
@@ -68,7 +68,7 @@ sudo cp ru_RU.* /usr/share/hunspell/
 Теперь при выборе языка проверки орфографии `Russian (Russia)`
 используется созданный мной составной словарь.
 
-<figure>
+<figure class="post-image">
 <img src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-result.png">
 <figcaption>Kate и проверка орфографии созданным словарем.</figcaption>
 </figure>

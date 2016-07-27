@@ -6,7 +6,7 @@ tags  : bash rsync linux udev dbus sync
 ---
 
 
-<figure>
+<figure class="post-image">
 <img src="/img/posts/2015-03-14-mp3-player-mp840-sync/mp840-photo.png">
 <figcaption>Transcend MP840.</figcaption>
 </figure>

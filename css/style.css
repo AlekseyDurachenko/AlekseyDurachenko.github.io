@@ -93,7 +93,7 @@ a {
   text-align: center;
 }
 
-figure {
+figure.post-image {
   padding-top: 1em;
   padding-left: 1em;
   padding-right: 1em;
@@ -104,14 +104,14 @@ figure {
   border-radius: 4px;
 }
 
-figure img {
+figure.post-image img {
   margin: 0 auto;
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-figure figcaption {
+figure.post-image figcaption {
   padding: 0.5em 1em 0.5em 1em;
   text-align: center;
   text-indent: 0;
