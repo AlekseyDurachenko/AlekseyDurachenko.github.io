@@ -1,0 +1,133 @@
+body {
+  font-family: 'Droid Sans Mono';
+  font-size: 18px;
+  padding-top: 50px;
+  background: #FFFFFF;
+}
+
+.blog-content {
+  background: #FFFFFF;
+  text-align: justify;
+}
+
+
+@media (min-width: 992px) {
+  body {
+      background: #EDEDED;
+  }
+  
+  .hr-for-mobile {
+    clear: both;
+    visibility: hidden;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  
+  .blog-content {
+    background: #FFFFFF;
+    padding: 1em 3em 1em 3em;
+    border: 1px solid #BBB;
+    box-shadow: #cfcfcf 2px 2px 1px 0px;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-align: justify;
+  }
+}
+
+.blog-red-line {
+  text-indent: 3em;
+}
+
+.blog-content > p.button-lean-more {
+  padding-left: 3em;
+  text-indent: 0em;
+}
+
+.blog-content > ul > li > p {
+  text-indent: 0.5em;
+  text-align: left;
+}
+
+.blog-content > ul > li {
+  text-indent: 0.5em;
+  text-align: left;
+}
+
+.page-header {
+  border-bottom: 0px solid #dddddd;
+}
+
+.blog-datetext {
+  text-align: right;
+  text-indent: 0em;
+  color: #666666;
+}
+
+code {
+  font-family: 'Droid Sans Mono';
+  font-size: 15px;
+  text-indent: 0px;
+  text-indent: 0px;
+}
+
+pre {
+  font-family: 'Droid Sans Mono';
+  font-size: 15px;
+  text-align: left;
+  text-indent: 0px;
+}
+
+a {
+  word-wrap: break-word;
+}
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
+.center-text
+{
+  text-align: center;
+}
+
+figure {
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #F8F3EA;
+  border: 1px solid rgba(221,177,170,0.3);
+  display: table; 
+  margin: 0em auto 1em auto;
+  border-radius: 4px;
+}
+
+figure img {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+figure figcaption {
+  padding: 0.5em 1em 0.5em 1em;
+  text-align: center;
+  text-indent: 0;
+  font-style: italic;
+  display: block;
+}
+
+.copyright {
+  text-align: center;
+  text-indent: 0;
+}
+
+h3.command {
+  color: navy;
+}
+
+h2.command {
+  color: blue;
+}

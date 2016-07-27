@@ -5,10 +5,11 @@ date  : 2015-03-22 18:31:00 UTC
 tags  : linux kde kate hunspell myspell
 ---
 
-![kate и проверка орфографии английским словарем](/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-without-russian-dict.png){: .center-image .img-responsive }
+<figure>
+<img src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-without-russian-dict.png">
+<figcaption>Kate и проверка орфографии английским словарем.</figcaption>
+</figure>
 
-kate и проверка орфографии английским словарем
-{: .center-text}
 
 Проверка орфографии вещь несомненно важная и нужная, но в kde в целом
 и в kate в частности до сих пор не реализовали возможность 
@@ -20,10 +21,12 @@ kate и проверка орфографии английским словар�
 
 <!--more-->
 
-![настройка проверки орфографии в kate](/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-configure-spellcheck.png){: .center-image .img-responsive }
 
-настройка проверки орфографии в kate
-{: .center-text}
+<figure>
+<img src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-configure-spellcheck.png">
+<figcaption>Настройка проверки орфографии в kate.</figcaption>
+</figure>
+
 
 Единственный вариант решения проблемы, который пришел мне в голову - 
 это склеить несколько словарей в один. 
@@ -38,10 +41,12 @@ kate и проверка орфографии английским словар�
 недолгого гугления удалось найти готовое решение:
 [https://github.com/arty-name/hunspell-merge](https://github.com/arty-name/hunspell-merge)
 
-![hunspell-merge](/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/hunspell-merge.png){: .center-image .img-responsive }
 
-hunspell-merge
-{: .center-text}
+<figure>
+<img src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/hunspell-merge.png">
+<figcaption>Окно программы hunspell-merge.</figcaption>
+</figure>
+
 
 Далее я создал собственный составной словарь из русского и английского словарей.
 
@@ -63,10 +68,11 @@ sudo cp ru_RU.* /usr/share/hunspell/
 Теперь при выборе языка проверки орфографии `Russian (Russia)`
 используется созданный мной составной словарь.
 
-![результат](/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-result.png){: .center-image .img-responsive }
+<figure>
+<img src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-result.png">
+<figcaption>Kate и проверка орфографии созданным словарем.</figcaption>
+</figure>
 
-результат
-{: .center-text}
 
 ### Ссылки ###
 * [https://bugs.kde.org/show_bug.cgi?id=66516](https://bugs.kde.org/show_bug.cgi?id=66516) - Bug 66516 - spell checker: automatic language detection
@@ -74,3 +80,12 @@ sudo cp ru_RU.* /usr/share/hunspell/
 * [http://manpages.ubuntu.com/manpages/dapper/man4/hunspell.4.html](http://manpages.ubuntu.com/manpages/dapper/man4/hunspell.4.html) - format of Hunspell dictionaries and affix files
 
 * [https://github.com/arty-name/hunspell-merge](https://github.com/arty-name/hunspell-merge) - Software for merging several hunspell dictionaries
+
+<hr>
+<div class="copyright">
+Все материалы данной статьи, если не указано иное, распространяется под лицензией <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+(c) Алексей Дураченко.
+<br>
+<br>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+</div>

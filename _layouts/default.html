@@ -11,9 +11,12 @@
     <!-- Bootstrap -->
     <link href="/libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- My styles -->
-    <link href="/css/default.css" rel="stylesheet">
-    <link href="/css/style_light.css" rel="stylesheet">
+    <!-- fonts -->
+    <link href="/font/droidmono.css" rel="stylesheet">
+   
+    <!-- My styles -->    
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/codestyle.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,14 +38,10 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse navbar-left">
           <ul class="nav navbar-nav">
-            <!--li {% if page.permalink == "/index.html" %}class="active"{% endif %}><a href="/index.html">Главная</a></li-->
-            <li {% if page.permalink == "/index.html" %}class="active"{% endif %}><a href="/index.html">Блог</a></li>
-            <li {% if page.permalink == "/articles.html" %}class="active"{% endif %}><a href="/articles.html">Статьи</a></li>
+            <li {% if page.permalink == "/index.html"    %}class="active"{% endif %}><a href="/index.html"   >Блог</a></li>
+            <li {% if page.permalink == "/articles.html" %}class="active"{% endif %}><a href="/articles.html">Статьи и заметки</a></li>
             <li {% if page.permalink == "/projects.html" %}class="active"{% endif %}><a href="/projects.html">Проекты</a></li>
-            <li {% if page.permalink == "/tags.html" %}class="active"{% endif %}><a href="/tags.html">Метки</a></li>
-            <li {% if page.permalink == "/sitemap.html" %}class="active"{% endif %}><a href="/sitemap.html">Карта сайта</a></li>
-            <li {% if page.permalink == "/feed.xml" %}class="active"{% endif %}><a href="/feed.xml">RSS</a></li>
-            <li {% if page.permalink == "/about.html" %}class="active"{% endif %}><a href="/about.html">Автор</a></li>
+            <li {% if page.permalink == "/about.html"    %}class="active"{% endif %}><a href="/about.html"   >Об авторе</a></li>
           </ul>
         </div>
       </div>
@@ -53,17 +52,10 @@
       {{ content }}
     </div>
 
-    <!-- Begin foother -->
-    <footer class="footer text-center">
-        <p class="text-muted small">AlekseyDurachenko.github.io is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. Contents © 2014-2015 Aleksey Durachenko.</p>
-    </footer>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="/libs/jquery/jquery-1.11.2.min.js"></script>
+    <script src="/libs/jquery/jquery-3.1.0.min.js"></script>
     <script src="/libs/bootstrap/dist/js/bootstrap.min.js"></script>  
-
-    <!-- user js -->
-    <script src="/js/tag-anchor-expand.js"></script>
-
+    <script src="/libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/resize_figure.js"></script>
   </body>
 </html>

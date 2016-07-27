@@ -2,13 +2,14 @@
 layout: post
 title : "Вытяжка для паяльной станции из подручных материалов"
 date  : 2016-03-26 14:58:00 UTC
-tags  : handmade solderings instrument
+tags  : DIY
 ---
 
-![вытяжка для паяльной станции](/img/posts/2016-03-26-air-extractor/air-extractor.jpg){: .center-image .img-responsive }
 
-вытяжка для паяльной станции
-{: .center-text}
+<figure>
+<img src="/img/posts/2016-03-26-air-extractor/air-extractor.jpg">
+<figcaption>Вытяжка для паяльной станции.</figcaption>
+</figure>
 
 Необходимость вытяжки при паяльных работах очевидна каждому.
 Но что делать, если паять приходится вне специально оборудованного помещения?
@@ -24,55 +25,115 @@ tags  : handmade solderings instrument
 * сливной шланг от стиральной машины + резиновый переходник;
 * термоклей, скотч, изолента.
 
-берем пластиковую отделочную панель
-![1.jpg](/img/posts/2016-03-26-air-extractor/1.jpg){: .center-image .img-responsive }
+<figure>
+<img src="/img/posts/2016-03-26-air-extractor/1.jpg">
+<figcaption>берем пластиковую отделочную панель</figcaption>
+</figure>
 
-нарезаем 5 кусков размером приблизительно 130х150
-![2.jpg](/img/posts/2016-03-26-air-extractor/2.jpg){: .center-image .img-responsive }
 
-чтобы пластик не крошился и не повредить пальцы обклеиваем острые края скотчем
-![3.jpg](/img/posts/2016-03-26-air-extractor/3.jpg){: .center-image .img-responsive }
+<figure>
+<img src="/img/posts/2016-03-26-air-extractor/2.jpg">
+<figcaption>нарезаем 5 кусков размером приблизительно 130х150</figcaption>
+</figure>
 
-в одном из кусков делаем по центру отверстие и вставляем в него переходник для сливного шланга
-![4.jpg](/img/posts/2016-03-26-air-extractor/4.jpg){: .center-image .img-responsive }
 
-заливаем все термоклеем
-![5.jpg](/img/posts/2016-03-26-air-extractor/5.jpg){: .center-image .img-responsive }
+<figure>
+<img src="/img/posts/2016-03-26-air-extractor/3.jpg">
+<figcaption>чтобы пластик не крошился и не повредить пальцы обклеиваем острые края скотчем</figcaption>
+</figure>
 
-с обратной стороны тоже
-![6.jpg](/img/posts/2016-03-26-air-extractor/6.jpg){: .center-image .img-responsive }
 
-приклеиваем три стенки к вентилятору при помощи двустороннего скотча
-![7.jpg](/img/posts/2016-03-26-air-extractor/7.jpg){: .center-image .img-responsive }
+<figure>
+<img src="/img/posts/2016-03-26-air-extractor/4.jpg">
+<figcaption>в одном из кусков делаем по центру отверстие и вставляем в него переходник для сливного шланга</figcaption>
+</figure>
 
-после фиксации панели можно залить для надежности термоклеем
-![8.jpg](/img/posts/2016-03-26-air-extractor/8.jpg){: .center-image .img-responsive }
 
-ставим четвертую панель и тоже заливаем термоклеем
-![9.jpg](/img/posts/2016-03-26-air-extractor/9.jpg){: .center-image .img-responsive }
+<figure>
+<img src="/img/posts/2016-03-26-air-extractor/5.jpg">
+<figcaption>заливаем все термоклеем</figcaption>
+</figure>
 
-далее при помощи гофры, изоленты, пищевой пленки и скотча изготавливаем шедевр достойный передачи "Очумелые ручки"
-![10.jpg](/img/posts/2016-03-26-air-extractor/10.jpg){: .center-image .img-responsive }
 
-помещаем получившуюся штуковину в вытяжку
-![11.jpg](/img/posts/2016-03-26-air-extractor/11.jpg){: .center-image .img-responsive }
+<figure>
+<img src="/img/posts/2016-03-26-air-extractor/6.jpg">
+<figcaption>с обратной стороны тоже</figcaption>
+</figure>
 
-и надежно закрепляем скотчем
-![12.jpg](/img/posts/2016-03-26-air-extractor/12.jpg){: .center-image .img-responsive }
 
-теперь необходимо заклеить все отверстия на передней панели, а так же
-избавиться от утечки воздуха через пустоту между лопастями и корпусом вентилятора
-![13.jpg](/img/posts/2016-03-26-air-extractor/13.jpg){: .center-image .img-responsive }
+<figure>
+<img src="/img/posts/2016-03-26-air-extractor/7.jpg">
+<figcaption>приклеиваем три стенки к вентилятору при помощи двустороннего скотча</figcaption>
+</figure>
 
-с помощью гриль решетки, скотча и плотной бумаги добиваемся необходимого результата
-(небольшая утечка воздуха сохранилась, но не критично)
-![14.jpg](/img/posts/2016-03-26-air-extractor/14.jpg){: .center-image .img-responsive }
 
-в сборе
-![15.jpg](/img/posts/2016-03-26-air-extractor/15.jpg){: .center-image .img-responsive }
+<figure>
+<img src="/img/posts/2016-03-26-air-extractor/8.jpg">
+<figcaption>после фиксации панели можно залить для надежности термоклеем</figcaption>
+</figure>
 
-другой ракурс
-![16.jpg](/img/posts/2016-03-26-air-extractor/16.jpg){: .center-image .img-responsive }
 
-эксплуатация вытяжки (шланг выкинут через форточку на улицу)
-![17.jpg](/img/posts/2016-03-26-air-extractor/17.jpg){: .center-image .img-responsive }
+<figure>
+<img src="/img/posts/2016-03-26-air-extractor/9.jpg">
+<figcaption>ставим четвертую панель и тоже заливаем термоклеем</figcaption>
+</figure>
+
+
+<figure>
+<img src="/img/posts/2016-03-26-air-extractor/10.jpg">
+<figcaption>далее при помощи гофры, изоленты, пищевой пленки и скотча изготавливаем шедевр достойный передачи "Очумелые ручки"</figcaption>
+</figure>
+
+
+<figure>
+<img src="/img/posts/2016-03-26-air-extractor/11.jpg">
+<figcaption>помещаем получившуюся штуковину в вытяжку</figcaption>
+</figure>
+
+
+<figure>
+<img src="/img/posts/2016-03-26-air-extractor/12.jpg">
+<figcaption>и надежно закрепляем скотчем</figcaption>
+</figure>
+
+
+<figure>
+<img src="/img/posts/2016-03-26-air-extractor/13.jpg">
+<figcaption>теперь необходимо заклеить все отверстия на передней панели, а так же
+избавиться от утечки воздуха через пустоту между лопастями и корпусом вентилятора</figcaption>
+</figure>
+
+
+<figure>
+<img src="/img/posts/2016-03-26-air-extractor/14.jpg">
+<figcaption>с помощью гриль решетки, скотча и плотной бумаги добиваемся необходимого результата
+(небольшая утечка воздуха сохранилась, но не критично)</figcaption>
+</figure>
+
+
+<figure>
+<img src="/img/posts/2016-03-26-air-extractor/15.jpg">
+<figcaption>в сборе</figcaption>
+</figure>
+
+
+<figure>
+<img src="/img/posts/2016-03-26-air-extractor/16.jpg">
+<figcaption>другой ракурс</figcaption>
+</figure>
+
+
+<figure>
+<img src="/img/posts/2016-03-26-air-extractor/17.jpg">
+<figcaption>эксплуатация вытяжки (шланг выкинут через форточку на улицу)</figcaption>
+</figure>
+
+
+<hr>
+<div class="copyright">
+Все материалы данной статьи, если не указано иное, распространяется под лицензией <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+(c) Алексей Дураченко.
+<br>
+<br>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+</div>
