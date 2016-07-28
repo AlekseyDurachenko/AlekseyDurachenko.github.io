@@ -6,10 +6,10 @@ tags  : bash rsync linux udev dbus sync
 ---
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2015-03-14-mp3-player-mp840-sync/mp840-photo.png">
-<figcaption>Transcend MP840.</figcaption>
-</figure>
+<div class="post-image-caption">Transcend MP840.</div>
+</div>
 
 
 Наконец-то дошли руки, чтобы сделать автоматическую синхронизацию flash памяти MP3 плеера 

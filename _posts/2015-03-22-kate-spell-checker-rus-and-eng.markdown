@@ -5,10 +5,10 @@ date  : 2015-03-22 18:31:00 UTC
 tags  : linux kde kate hunspell myspell
 ---
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-without-russian-dict.png">
-<figcaption>Kate и проверка орфографии английским словарем.</figcaption>
-</figure>
+<div class="post-image-caption">Kate и проверка орфографии английским словарем.</div>
+</div>
 
 
 Проверка орфографии вещь несомненно важная и нужная, но в kde в целом
@@ -22,10 +22,10 @@ tags  : linux kde kate hunspell myspell
 <!--more-->
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-configure-spellcheck.png">
-<figcaption>Настройка проверки орфографии в kate.</figcaption>
-</figure>
+<div class="post-image-caption">Настройка проверки орфографии в kate.</div>
+</div>
 
 
 Единственный вариант решения проблемы, который пришел мне в голову - 
@@ -42,10 +42,10 @@ tags  : linux kde kate hunspell myspell
 [https://github.com/arty-name/hunspell-merge](https://github.com/arty-name/hunspell-merge)
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/hunspell-merge.png">
-<figcaption>Окно программы hunspell-merge.</figcaption>
-</figure>
+<div class="post-image-caption">Окно программы hunspell-merge.</div>
+</div>
 
 
 Далее я создал собственный составной словарь из русского и английского словарей.
@@ -68,10 +68,10 @@ sudo cp ru_RU.* /usr/share/hunspell/
 Теперь при выборе языка проверки орфографии `Russian (Russia)`
 используется созданный мной составной словарь.
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-result.png">
-<figcaption>Kate и проверка орфографии созданным словарем.</figcaption>
-</figure>
+<div class="post-image-caption">Kate и проверка орфографии созданным словарем.</div>
+</div>
 
 
 ### Ссылки ###

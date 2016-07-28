@@ -6,10 +6,10 @@ tags  : DIY
 ---
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2016-03-26-air-extractor/air-extractor.jpg">
-<figcaption>Вытяжка для паяльной станции.</figcaption>
-</figure>
+<div class="post-image-caption">Вытяжка для паяльной станции.</div>
+</div>
 
 Необходимость вытяжки при паяльных работах очевидна каждому.
 Но что делать, если паять приходится вне специально оборудованного помещения?
@@ -25,108 +25,108 @@ tags  : DIY
 * сливной шланг от стиральной машины + резиновый переходник;
 * термоклей, скотч, изолента.
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2016-03-26-air-extractor/1.jpg">
-<figcaption>берем пластиковую отделочную панель</figcaption>
-</figure>
+<div class="post-image-caption">берем пластиковую отделочную панель</div>
+</div>
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2016-03-26-air-extractor/2.jpg">
-<figcaption>нарезаем 5 кусков размером приблизительно 130х150</figcaption>
-</figure>
+<div class="post-image-caption">нарезаем 5 кусков размером приблизительно 130х150</div>
+</div>
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2016-03-26-air-extractor/3.jpg">
-<figcaption>чтобы пластик не крошился и не повредить пальцы обклеиваем острые края скотчем</figcaption>
-</figure>
+<div class="post-image-caption">чтобы пластик не крошился и не повредить пальцы обклеиваем острые края скотчем</div>
+</div>
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2016-03-26-air-extractor/4.jpg">
-<figcaption>в одном из кусков делаем по центру отверстие и вставляем в него переходник для сливного шланга</figcaption>
-</figure>
+<div class="post-image-caption">в одном из кусков делаем по центру отверстие и вставляем в него переходник для сливного шланга</div>
+</div>
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2016-03-26-air-extractor/5.jpg">
-<figcaption>заливаем все термоклеем</figcaption>
-</figure>
+<div class="post-image-caption">заливаем все термоклеем</div>
+</div>
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2016-03-26-air-extractor/6.jpg">
-<figcaption>с обратной стороны тоже</figcaption>
-</figure>
+<div class="post-image-caption">с обратной стороны тоже</div>
+</div>
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2016-03-26-air-extractor/7.jpg">
-<figcaption>приклеиваем три стенки к вентилятору при помощи двустороннего скотча</figcaption>
-</figure>
+<div class="post-image-caption">приклеиваем три стенки к вентилятору при помощи двустороннего скотча</div>
+</div>
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2016-03-26-air-extractor/8.jpg">
-<figcaption>после фиксации панели можно залить для надежности термоклеем</figcaption>
-</figure>
+<div class="post-image-caption">после фиксации панели можно залить для надежности термоклеем</div>
+</div>
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2016-03-26-air-extractor/9.jpg">
-<figcaption>ставим четвертую панель и тоже заливаем термоклеем</figcaption>
-</figure>
+<div class="post-image-caption">ставим четвертую панель и тоже заливаем термоклеем</div>
+</div>
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2016-03-26-air-extractor/10.jpg">
-<figcaption>далее при помощи гофры, изоленты, пищевой пленки и скотча изготавливаем шедевр достойный передачи "Очумелые ручки"</figcaption>
-</figure>
+<div class="post-image-caption">далее при помощи гофры, изоленты, пищевой пленки и скотча изготавливаем шедевр достойный передачи "Очумелые ручки"</div>
+</div>
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2016-03-26-air-extractor/11.jpg">
-<figcaption>помещаем получившуюся штуковину в вытяжку</figcaption>
-</figure>
+<div class="post-image-caption">помещаем получившуюся штуковину в вытяжку</div>
+</div>
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2016-03-26-air-extractor/12.jpg">
-<figcaption>и надежно закрепляем скотчем</figcaption>
-</figure>
+<div class="post-image-caption">и надежно закрепляем скотчем</div>
+</div>
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2016-03-26-air-extractor/13.jpg">
-<figcaption>теперь необходимо заклеить все отверстия на передней панели, а так же
-избавиться от утечки воздуха через пустоту между лопастями и корпусом вентилятора</figcaption>
-</figure>
+<div class="post-image-caption">теперь необходимо заклеить все отверстия на передней панели, а так же
+избавиться от утечки воздуха через пустоту между лопастями и корпусом вентилятора</div>
+</div>
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2016-03-26-air-extractor/14.jpg">
-<figcaption>с помощью гриль решетки, скотча и плотной бумаги добиваемся необходимого результата
-(небольшая утечка воздуха сохранилась, но не критично)</figcaption>
-</figure>
+<div class="post-image-caption">с помощью гриль решетки, скотча и плотной бумаги добиваемся необходимого результата
+(небольшая утечка воздуха сохранилась, но не критично)</div>
+</div>
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2016-03-26-air-extractor/15.jpg">
-<figcaption>в сборе</figcaption>
-</figure>
+<div class="post-image-caption">в сборе</div>
+</div>
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2016-03-26-air-extractor/16.jpg">
-<figcaption>другой ракурс</figcaption>
-</figure>
+<div class="post-image-caption">другой ракурс</div>
+</div>
 
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2016-03-26-air-extractor/17.jpg">
-<figcaption>эксплуатация вытяжки (шланг выкинут через форточку на улицу)</figcaption>
-</figure>
+<div class="post-image-caption">эксплуатация вытяжки (шланг выкинут через форточку на улицу)</div>
+</div>
 
 
 <hr>

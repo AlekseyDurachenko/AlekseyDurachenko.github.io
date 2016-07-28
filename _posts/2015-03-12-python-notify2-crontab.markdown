@@ -24,10 +24,10 @@ notify = notify2.Notification("Title", "Message")
 notify.show()                  
 {% endhighlight %}
 
-<figure class="post-image">
+<div class="post-image">
 <img src="/img/posts/2015-03-12-python-notify2-crontab/screenshot-notify2.png">
-<figcaption>Результат работы скрипта.</figcaption>
-</figure>
+<div class="post-image-caption">Результат работы скрипта.</div>
+</div>
 
 
 При попытке запустить этот скрипт в crontab появляется сообщении об ошибке:
