@@ -1,14 +1,15 @@
 ---
 layout: post
-title : "Заставляем работать связку: python, notify2, crontab"
-date  : 2015-03-12 22:30:00 UTC
-tags  : python linux crontab x11 dbus
+title: "Заставляем работать связку: python, notify2, crontab"
+date: 2015-03-12 22:30:00
+last_modified_at: 2015-03-12 22:30:00
+tags: python linux crontab x11 dbus
 ---
 
 При реализации [скрипта](https://github.com/AlekseyDurachenko/podfmdog)
 автоматической загрузки новых подкастов с сайта [podfm.ru](http://podfm.ru)
-возникла необходимость внедрения уведомлений на рабочем столе о появлении новых файлов. 
-Для решения этой задачи была выбрана библиотека notify2. И все работало хорошо, до тех пор, 
+возникла необходимость внедрения уведомлений на рабочем столе о появлении новых файлов.
+Для решения этой задачи была выбрана библиотека notify2. И все работало хорошо, до тех пор,
 пока не потребовалось запускать скрипт по расписанию в crontab...
 
 <!--more-->
@@ -47,7 +48,7 @@ dbus.exceptions.DBusException: org.freedesktop.DBus.Error.NotSupported: Unable t
 {% endhighlight %}
 
 Проблема заключается в том, что notify2 необходимо знать адрес пользовательской
-шины dbus. Для этого перед запуском скрипта нам необходимо экспортировать 
+шины dbus. Для этого перед запуском скрипта нам необходимо экспортировать
 переменную окружения `DBUS_SESSION_BUS_ADDRESS`. Сделать это можно следующим образом:
 {% highlight bash %}
 ...
@@ -56,8 +57,8 @@ USERNAME=`whoami`
 export DBUS_SESSION_BUS_ADDRESS=`ps -u $USERNAME e | grep -Eo 'dbus-daemon.*address=unix:abstract=/tmp/dbus-[A-Za-z0-9]{10}' | tail -c35`
 ...
 {% endhighlight %}
-Полный код скрипта можно взять [здесь](https://gist.github.com/AlekseyDurachenko/2027114608e4863eb038). 
-Следует отметить, что скрипт должен вызываться из crontab от имени пользователя с активной 
+Полный код скрипта можно взять [здесь](https://gist.github.com/AlekseyDurachenko/2027114608e4863eb038).
+Следует отметить, что скрипт должен вызываться из crontab от имени пользователя с активной
 сессией x11.
 
 
