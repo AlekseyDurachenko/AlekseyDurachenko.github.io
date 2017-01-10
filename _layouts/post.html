@@ -3,7 +3,7 @@ layout: page
 ---
 <div class="blog-content">
   {% assign date_text = page.last_modified_at | date: "%Y.%m.%d" %}
-  {% if post.date == page.last_modified_at %}
+  {% if page.date == page.last_modified_at %}
     {% assign title = page.title %}
     {% assign full_date_text = "Опубликовано " | append: date_text %}
   {% else %}
