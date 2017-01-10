@@ -28,7 +28,9 @@ notify.show()
 {% endhighlight %}
 
 <div class="post-image-container">
+<a href="/img/posts/2015-03-12-python-notify2-crontab/screenshot-notify2.png">
 <img class="post-image-img" src="/img/posts/2015-03-12-python-notify2-crontab/screenshot-notify2.png">
+</a>
 <div class="post-image-caption">Результат работы скрипта.</div>
 </div>
 

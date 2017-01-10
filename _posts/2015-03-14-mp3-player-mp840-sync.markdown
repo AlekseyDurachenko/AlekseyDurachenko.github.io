@@ -10,7 +10,9 @@ permalink: /2015/03/14/mp3-player-mp840-sync.html
 
 
 <div class="post-image-container">
+<a href="/img/posts/2015-03-14-mp3-player-mp840-sync/mp840-photo.png">
 <img class="post-image-img" src="/img/posts/2015-03-14-mp3-player-mp840-sync/mp840-photo.png">
+</a>
 <div class="post-image-caption">Transcend MP840.</div>
 </div>
 

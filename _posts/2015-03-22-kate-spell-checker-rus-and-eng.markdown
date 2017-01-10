@@ -9,7 +9,9 @@ permalink: /2015/03/22/kate-spell-checker-rus-and-eng.html
 ---
 
 <div class="post-image-container">
+<a href="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-without-russian-dict.png">
 <img class="post-image-img" src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-without-russian-dict.png">
+</a>
 <div class="post-image-caption">Kate и проверка орфографии английским словарем.</div>
 </div>
 
@@ -26,7 +28,9 @@ permalink: /2015/03/22/kate-spell-checker-rus-and-eng.html
 
 
 <div class="post-image-container">
+<a href="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-configure-spellcheck.png">
 <img class="post-image-img" src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-configure-spellcheck.png">
+</a>
 <div class="post-image-caption">Настройка проверки орфографии в kate.</div>
 </div>
 
@@ -46,7 +50,9 @@ permalink: /2015/03/22/kate-spell-checker-rus-and-eng.html
 
 
 <div class="post-image-container">
+<a href="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/hunspell-merge.png">
 <img class="post-image-img" src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/hunspell-merge.png">
+</a>
 <div class="post-image-caption">Окно программы hunspell-merge.</div>
 </div>
 
@@ -73,7 +79,9 @@ sudo cp ru_RU.* /usr/share/hunspell/
 используется созданный мной составной словарь.
 
 <div class="post-image-container">
+<a href="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-result.png">
 <img class="post-image-img" src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-result.png">
+</a>
 <div class="post-image-caption">Kate и проверка орфографии созданным словарем.</div>
 </div>
 

@@ -9,7 +9,9 @@ permalink: /2016/08/11/ffmpeg-as-simple-video-editor.html
 ---
 
 <div class="post-image-container">
+<a href="/img/posts/2016-08-11-ffmpeg-as-simple-video-editor/1.png">
 <img class="post-image-img" src="/img/posts/2016-08-11-ffmpeg-as-simple-video-editor/1.png">
+</a>
 <div class="post-image-caption">ffmpeg</div>
 </div>
 
