@@ -5,6 +5,7 @@ date: 2015-03-22 18:31:00
 last_modified_at: 2015-03-22 18:31:00
 categories: linux
 tags: linux kde kate hunspell myspell
+permalink: /2015/03/22/kate-spell-checker-rus-and-eng.html
 ---
 
 <div class="post-image-container">

@@ -5,6 +5,7 @@ date: 2016-09-12 15:08:00
 last_modified_at: 2016-09-12 15:08:00
 categories: photo
 tags: darktable digiKam photo
+permalink: /2016/09/12/my-photo-archive.html
 ---
 
 В данной статье я постараюсь описать методы каталогизации, обработки и резервного копирования

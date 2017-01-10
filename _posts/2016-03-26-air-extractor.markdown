@@ -5,6 +5,7 @@ date: 2016-03-26 14:58:00
 last_modified_at: 2016-03-26 14:58:00
 categories: DIY
 tags: DIY
+permalink: /2016/03/26/air-extractor.html
 ---
 
 

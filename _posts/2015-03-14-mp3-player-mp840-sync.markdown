@@ -5,6 +5,7 @@ date: 2015-03-14 22:09:00
 last_modified_at: 2015-03-14 22:09:00
 categories: linux
 tags: bash rsync linux udev dbus sync
+permalink: /2015/03/14/mp3-player-mp840-sync.html
 ---
 
 

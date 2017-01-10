@@ -5,6 +5,7 @@ date: 2015-03-12 22:30:00
 last_modified_at: 2015-03-12 22:30:00
 categories: linux
 tags: python linux crontab x11 dbus
+permalink: /2015/03/12/python-notify2-crontab.html
 ---
 
 При реализации [скрипта](https://github.com/AlekseyDurachenko/podfmdog)

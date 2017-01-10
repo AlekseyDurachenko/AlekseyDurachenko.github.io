@@ -5,6 +5,7 @@ date: 2016-08-11 23:16:00
 last_modified_at: 2016-08-11 23:16:00
 categories: video
 tags: linux ffmpeg audacity video
+permalink: /2016/08/11/ffmpeg-as-simple-video-editor.html
 ---
 
 <div class="post-image-container">
