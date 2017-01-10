@@ -3,6 +3,7 @@ layout: post
 title: Организация архива фотографий
 date: 2016-09-12 15:08:00
 last_modified_at: 2016-09-12 15:08:00
+category: photo
 tags: darktable digiKam photo
 ---
 
@@ -487,12 +488,3 @@ uploaded
 [make_photos_for_flickr.sh]: #make_photos_for_flickr.sh
 [backup.sh]: #backup.sh
 [gitignore]: #gitignore
-
-<hr>
-<div class="copyright">
-Все материалы данной статьи, если не указано иное, распространяется под лицензией <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
-(c) Алексей Дураченко.
-<br />
-<br />
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-</div>

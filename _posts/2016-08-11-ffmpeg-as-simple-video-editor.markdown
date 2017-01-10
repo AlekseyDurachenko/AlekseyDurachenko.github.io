@@ -3,6 +3,7 @@ layout: post
 title: "Магия ffmpeg: деинтерлейсинг, стабилизация видео, коррекция аудиодорожки"
 date: 2016-08-11 23:16:00
 last_modified_at: 2016-08-11 23:16:00
+category: video
 tags: linux ffmpeg audacity video
 ---
 
@@ -184,12 +185,3 @@ fi
 # Удаляем временные файлы
 rm deinterlece.avi "$AUDIO_EXPORT" result.avi stab_vidstabdetect.avi stabilized.avi transforms.trf
 ```
-
-<hr>
-<div class="copyright">
-Все материалы данной статьи, если не указано иное, распространяется под лицензией <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
-(c) Алексей Дураченко.
-<br>
-<br>
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-</div>

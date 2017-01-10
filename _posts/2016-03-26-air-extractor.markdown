@@ -3,6 +3,7 @@ layout: post
 title: "Вытяжка для паяльной станции из подручных материалов"
 date: 2016-03-26 14:58:00
 last_modified_at: 2016-03-26 14:58:00
+category: DIY
 tags: DIY
 ---
 
@@ -127,14 +128,4 @@ tags: DIY
 <div class="post-image-container">
 <img class="post-image-img" src="/img/posts/2016-03-26-air-extractor/17.jpg">
 <div class="post-image-caption">эксплуатация вытяжки (шланг выкинут через форточку на улицу)</div>
-</div>
-
-
-<hr>
-<div class="copyright">
-Все материалы данной статьи, если не указано иное, распространяется под лицензией <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
-(c) Алексей Дураченко.
-<br>
-<br>
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
 </div>

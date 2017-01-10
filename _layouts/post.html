@@ -1,15 +1,23 @@
 ---
 layout: page
 ---
-<div class="blog-content blog-red-line">
+<div class="blog-content">
+  {% assign date_text = page.last_modified_at | date: "%Y.%m.%d" %}
+  {% if post.date == page.last_modified_at %}
+    {% assign title = page.title %}
+    {% assign full_date_text = "Опубликовано " | append: date_text %}
+  {% else %}
+    {% assign title = page.title | append: " (обновлено)" %}
+    {% assign full_date_text = "Отредактировано " | append: date_text %}
+  {% endif %}
+
   <h3 class="text-center">
-    <p>{{ page.title }}</p>
+    <p>{{ title }}</p>
   </h3>
 
   <br>
-  <p class="blog-datetext"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> {{ page.date | date: "%Y.%m.%d %H:%M"}}</p>
+  <p class="blog-datetext">{{ full_date_text }}</p>
   <br>
 
   {{ content }}
-
 </div>

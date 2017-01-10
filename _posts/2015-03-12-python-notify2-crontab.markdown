@@ -3,6 +3,7 @@ layout: post
 title: "Заставляем работать связку: python, notify2, crontab"
 date: 2015-03-12 22:30:00
 last_modified_at: 2015-03-12 22:30:00
+category: linux
 tags: python linux crontab x11 dbus
 ---
 
@@ -60,13 +61,3 @@ export DBUS_SESSION_BUS_ADDRESS=`ps -u $USERNAME e | grep -Eo 'dbus-daemon.*addr
 Полный код скрипта можно взять [здесь](https://gist.github.com/AlekseyDurachenko/2027114608e4863eb038).
 Следует отметить, что скрипт должен вызываться из crontab от имени пользователя с активной
 сессией x11.
-
-
-<hr>
-<div class="copyright">
-Все материалы данной статьи, если не указано иное, распространяется под лицензией <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
-(c) Алексей Дураченко.
-<br>
-<br>
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-</div>

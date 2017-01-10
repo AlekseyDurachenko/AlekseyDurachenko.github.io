@@ -3,6 +3,7 @@ layout: post
 title: "Настройка проверки орфографии в kate с помощью пользовательского словаря"
 date: 2015-03-22 18:31:00
 last_modified_at: 2015-03-22 18:31:00
+category: linux
 tags: linux kde kate hunspell myspell
 ---
 
@@ -51,8 +52,9 @@ tags: linux kde kate hunspell myspell
 
 Далее я создал собственный составной словарь из русского и английского словарей.
 
+<p class="alert alert-danger">
 Внимание! Описанная ниже процедура установки словарей производится на свой страх и риск!
-{: .alert .alert-danger}
+</p>
 
 <div class="alert alert-warning">
 <p>К сожалению, я не нашел способа устанавливать словари в домашний каталог,
@@ -81,12 +83,3 @@ sudo cp ru_RU.* /usr/share/hunspell/
 * [http://manpages.ubuntu.com/manpages/dapper/man4/hunspell.4.html](http://manpages.ubuntu.com/manpages/dapper/man4/hunspell.4.html) - format of Hunspell dictionaries and affix files
 
 * [https://github.com/arty-name/hunspell-merge](https://github.com/arty-name/hunspell-merge) - Software for merging several hunspell dictionaries
-
-<hr>
-<div class="copyright">
-Все материалы данной статьи, если не указано иное, распространяется под лицензией <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
-(c) Алексей Дураченко.
-<br>
-<br>
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-</div>

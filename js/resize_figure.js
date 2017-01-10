@@ -1,4 +1,4 @@
-$().ready(function() {
+;$().ready(function() {
   $.each($('div.post-image-container'), function(i, val) {
     var img = $(val).find('img.post-image-img');
     img.imagesLoaded(function() {

@@ -3,6 +3,7 @@ layout: post
 title: "Автоматическая синхронизация flash памяти MP3 плеера с локальным каталогом"
 date: 2015-03-14 22:09:00
 last_modified_at: 2015-03-14 22:09:00
+category: linux
 tags: bash rsync linux udev dbus sync
 ---
 
@@ -116,12 +117,3 @@ exit 0
 * [http://reactivated.net/writing_udev_rules.html](http://reactivated.net/writing_udev_rules.html) - writing udev rules by Daniel Drake (dsd)
 
 * [https://gist.github.com/AlekseyDurachenko/335e3ca333a70d16a101](https://gist.github.com/AlekseyDurachenko/335e3ca333a70d16a101) - скрипт синхронизации
-
-<hr>
-<div class="copyright">
-Все материалы данной статьи, если не указано иное, распространяется под лицензией <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
-(c) Алексей Дураченко.
-<br>
-<br>
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-</div>
