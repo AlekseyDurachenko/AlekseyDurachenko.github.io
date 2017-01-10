@@ -1,5 +1,7 @@
 ---
 layout: post
+comments: true
+uid: 2016-09-12-my-photo-archive
 title: Организация архива фотографий
 date: 2016-09-12 15:08:00
 last_modified_at: 2016-09-12 15:08:00
