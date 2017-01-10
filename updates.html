@@ -5,7 +5,7 @@ permalink: /index.html
 ---
 {% assign ordered_posts = site.posts | sort: 'last_modified_at' | reverse %}
 {% for post in ordered_posts %}
-  <div class="blog-content blog-red-line">
+  <div class="blog-content">
     <h3 class="text-center">
       {% assign date_text = post.last_modified_at | date: "%Y.%m.%d" %}
       {% if post.date == post.last_modified_at %}
