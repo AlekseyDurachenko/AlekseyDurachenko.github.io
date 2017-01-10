@@ -3,7 +3,7 @@ layout: post
 title: "Магия ffmpeg: деинтерлейсинг, стабилизация видео, коррекция аудиодорожки"
 date: 2016-08-11 23:16:00
 last_modified_at: 2016-08-11 23:16:00
-category: video
+categories: video
 tags: linux ffmpeg audacity video
 ---
 

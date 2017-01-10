@@ -3,7 +3,7 @@ layout: post
 title: "Настройка проверки орфографии в kate с помощью пользовательского словаря"
 date: 2015-03-22 18:31:00
 last_modified_at: 2015-03-22 18:31:00
-category: linux
+categories: linux
 tags: linux kde kate hunspell myspell
 ---
 

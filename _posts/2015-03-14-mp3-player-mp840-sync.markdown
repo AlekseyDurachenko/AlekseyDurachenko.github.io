@@ -3,7 +3,7 @@ layout: post
 title: "Автоматическая синхронизация flash памяти MP3 плеера с локальным каталогом"
 date: 2015-03-14 22:09:00
 last_modified_at: 2015-03-14 22:09:00
-category: linux
+categories: linux
 tags: bash rsync linux udev dbus sync
 ---
 

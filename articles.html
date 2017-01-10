@@ -4,19 +4,48 @@ title: Каталог статей
 permalink: /articles.html
 ---
 <div class="blog-content">
-  <h3 class="text-center">Каталог статей</h3>
+  <h3 class="text-center">Каталог статей по категориям</h3>
   <br>
 
   <ul class="text-left">
-    <li><b>Фотография</b>
+    <li><b>GNU/Linux</b>
       <ul class="text-left">
-        <li><a href="/articles/photo/my-photo-archive/my-photo-archive.html">Организация архива фотографий</a></li>
+      {% assign ordered_posts = site.posts | sort: 'title' %}
+      {% for post in ordered_posts %}
+        {% if post.categories contains "linux" %}
+        <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+        {% endif %}
+      {% endfor %}
       </ul>
 
-    <li><b>Разное</b>
+      <li><b>DIY</b>
+        <ul class="text-left">
+        {% assign ordered_posts = site.posts | sort: 'title' %}
+        {% for post in ordered_posts %}
+          {% if post.categories contains "DIY" %}
+          <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+
+    <li><b>Фотография</b>
       <ul class="text-left">
-        <li><a href="/articles/stuff/command-reference.html">Справочник команд</a></li>
+      {% assign ordered_posts = site.posts | sort: 'title' %}
+      {% for post in ordered_posts %}
+        {% if post.categories contains "photo" %}
+        <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+        {% endif %}
+      {% endfor %}
       </ul>
-    </li>
+
+      <li><b>Видео</b>
+        <ul class="text-left">
+        {% assign ordered_posts = site.posts | sort: 'title' %}
+        {% for post in ordered_posts %}
+          {% if post.categories contains "video" %}
+          <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+        </ul>
   </ul>
 </div>

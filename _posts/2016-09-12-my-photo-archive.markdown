@@ -3,7 +3,7 @@ layout: post
 title: Организация архива фотографий
 date: 2016-09-12 15:08:00
 last_modified_at: 2016-09-12 15:08:00
-category: photo
+categories: photo
 tags: darktable digiKam photo
 ---
 

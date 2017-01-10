@@ -3,7 +3,7 @@ layout: post
 title: "Вытяжка для паяльной станции из подручных материалов"
 date: 2016-03-26 14:58:00
 last_modified_at: 2016-03-26 14:58:00
-category: DIY
+categories: DIY
 tags: DIY
 ---
 
