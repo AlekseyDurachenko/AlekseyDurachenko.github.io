@@ -25,8 +25,8 @@ notify = notify2.Notification("Title", "Message")
 notify.show()                  
 {% endhighlight %}
 
-<div class="post-image">
-<img src="/img/posts/2015-03-12-python-notify2-crontab/screenshot-notify2.png">
+<div class="post-image-container">
+<img class="post-image-img" src="/img/posts/2015-03-12-python-notify2-crontab/screenshot-notify2.png">
 <div class="post-image-caption">Результат работы скрипта.</div>
 </div>
 

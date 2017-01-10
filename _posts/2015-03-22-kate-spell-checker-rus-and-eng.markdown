@@ -6,8 +6,8 @@ last_modified_at: 2015-03-22 18:31:00
 tags: linux kde kate hunspell myspell
 ---
 
-<div class="post-image">
-<img src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-without-russian-dict.png">
+<div class="post-image-container">
+<img class="post-image-img" src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-without-russian-dict.png">
 <div class="post-image-caption">Kate и проверка орфографии английским словарем.</div>
 </div>
 
@@ -23,8 +23,8 @@ tags: linux kde kate hunspell myspell
 <!--more-->
 
 
-<div class="post-image">
-<img src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-configure-spellcheck.png">
+<div class="post-image-container">
+<img class="post-image-img" src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-configure-spellcheck.png">
 <div class="post-image-caption">Настройка проверки орфографии в kate.</div>
 </div>
 
@@ -43,8 +43,8 @@ tags: linux kde kate hunspell myspell
 [https://github.com/arty-name/hunspell-merge](https://github.com/arty-name/hunspell-merge)
 
 
-<div class="post-image">
-<img src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/hunspell-merge.png">
+<div class="post-image-container">
+<img class="post-image-img" src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/hunspell-merge.png">
 <div class="post-image-caption">Окно программы hunspell-merge.</div>
 </div>
 
@@ -69,8 +69,8 @@ sudo cp ru_RU.* /usr/share/hunspell/
 Теперь при выборе языка проверки орфографии `Russian (Russia)`
 используется созданный мной составной словарь.
 
-<div class="post-image">
-<img src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-result.png">
+<div class="post-image-container">
+<img class="post-image-img" src="/img/posts/2015-03-22-kate-spell-checker-rus-and-eng/kate-result.png">
 <div class="post-image-caption">Kate и проверка орфографии созданным словарем.</div>
 </div>
 

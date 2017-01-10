@@ -15,14 +15,14 @@ body {
   body {
       background: #EDEDED;
   }
-  
+
   .hr-for-mobile {
     clear: both;
     visibility: hidden;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
   }
-  
+
   .blog-content {
     background: #FFFFFF;
     padding: 1em 3em 1em 3em;
@@ -93,25 +93,25 @@ a {
   text-align: center;
 }
 
-div.post-image {
+div.post-image-container {
   padding-top: 1em;
   padding-left: 1em;
   padding-right: 1em;
   background-color: #F8F3EA;
   border: 1px solid rgba(221,177,170,0.3);
-  display: table; 
+  display: table;
   margin: 0em auto 1em auto;
   border-radius: 4px;
 }
 
-div.post-image img {
+div.post-image-container img.post-image-img {
   margin: 0 auto;
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-div.post-image div.post-image-caption {
+div.post-image-container div.post-image-caption {
   padding: 0.5em 1em 0.5em 1em;
   text-align: center;
   text-indent: 0;

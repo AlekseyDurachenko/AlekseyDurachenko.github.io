@@ -6,8 +6,8 @@ last_modified_at: 2016-08-11 23:16:00
 tags: linux ffmpeg audacity video
 ---
 
-<div class="post-image">
-<img src="/img/posts/2016-08-11-ffmpeg-as-simple-video-editor/1.png">
+<div class="post-image-container">
+<img class="post-image-img" src="/img/posts/2016-08-11-ffmpeg-as-simple-video-editor/1.png">
 <div class="post-image-caption">ffmpeg</div>
 </div>
 
