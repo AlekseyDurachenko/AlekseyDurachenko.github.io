@@ -16,7 +16,9 @@ permalink: /2017/01/11/command-reference.html
 <!--more-->
 
 ### Git
+
 Удаление локальной и удаленной ветки
+
 ```bash
 # local branch
 git branch -d some_feature
