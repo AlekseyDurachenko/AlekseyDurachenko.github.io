@@ -1,5 +1,7 @@
 ---
 layout: post
+comments: true
+uid: 2015-03-14-mp3-player-mp840-sync
 title: "Автоматическая синхронизация flash памяти MP3 плеера с локальным каталогом"
 date: 2015-03-14 22:09:00
 last_modified_at: 2015-03-14 22:09:00

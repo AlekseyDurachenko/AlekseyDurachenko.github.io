@@ -1,5 +1,7 @@
 ---
 layout: post
+comments: true
+uid: 2016-08-11-ffmpeg-as-simple-video-editor
 title: "Магия ffmpeg: деинтерлейсинг, стабилизация видео, коррекция аудиодорожки"
 date: 2016-08-11 23:16:00
 last_modified_at: 2016-08-11 23:16:00

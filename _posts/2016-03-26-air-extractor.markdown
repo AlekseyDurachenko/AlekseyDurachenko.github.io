@@ -1,5 +1,7 @@
 ---
 layout: post
+comments: true
+uid: 2016-03-26-air-extractor
 title: "Вытяжка для паяльной станции из подручных материалов"
 date: 2016-03-26 14:58:00
 last_modified_at: 2016-03-26 14:58:00

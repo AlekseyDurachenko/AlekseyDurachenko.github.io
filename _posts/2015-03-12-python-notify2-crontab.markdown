@@ -1,5 +1,7 @@
 ---
 layout: post
+comments: true
+uid: 2015-03-12-python-notify2-crontab
 title: "Заставляем работать связку: python, notify2, crontab"
 date: 2015-03-12 22:30:00
 last_modified_at: 2015-03-12 22:30:00
