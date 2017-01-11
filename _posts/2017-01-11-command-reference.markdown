@@ -25,3 +25,9 @@ git branch -d some_feature
 # remote branch
 push origin :some_feature
 ```
+Создание новой пустой ветки
+
+```bash
+git checkout --orphan some_feature
+git reset --hard
+```
