@@ -53,6 +53,18 @@ div.post-image-container div.post-image-caption {
   display: block;
 }
 
+.hr-disqus-copyright {
+  color: #ddd;
+  background-color: #ddd;
+  border-color: #ddd;
+}
+
+.hr-for-mobile {
+  color: #ddd;
+  background-color: #ddd;
+  border-color: #ddd;
+}
+
 div.copyright {
   text-align: center;
   padding-left: 1em;
