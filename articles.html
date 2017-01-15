@@ -8,6 +8,16 @@ permalink: /articles.html
   <br>
 
   <ul>
+    <li><b>Программирование</b>
+      <ul>
+      {% assign ordered_posts = site.posts | sort: 'title' %}
+      {% for post in ordered_posts %}
+        {% if post.categories contains "programming" %}
+        <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+
     <li><b>GNU/Linux</b>
       <ul>
       {% assign ordered_posts = site.posts | sort: 'title' %}
