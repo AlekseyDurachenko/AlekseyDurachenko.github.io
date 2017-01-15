@@ -287,7 +287,7 @@ for rect in rectangles:
             y2 = image_height - 1
         w = x2 - x1
         h = y2 - y1
-        print("convert %s -crop %dx%d+%d+%d %s_%d.%s" % (image_filename, w, h, x1, y1, image_basefilename, n, "pnm",))
+        print("convert %s -crop %dx%d+%d+%d %s_%d.%s" % (image_filename, w, h, x1, y1, image_basefilename, n, "ppm",))
         n += 1
 {% endhighlight %}
 
