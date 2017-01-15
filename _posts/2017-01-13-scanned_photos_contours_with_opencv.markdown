@@ -70,7 +70,7 @@ permalink: /2017/01/13/scanned_photos_contours_with_opencv.html
 
 
 Скрипт с подробным описанием работы алгоритма:
-```python
+{% highlight python %}
 #!/usr/bin/python2
 # -*- coding: utf-8 -*-
 #
@@ -289,11 +289,11 @@ for rect in rectangles:
         h = y2 - y1
         print("convert %s -crop %dx%d+%d+%d %s_%d.%s" % (image_filename, w, h, x1, y1, image_basefilename, n, "pnm",))
         n += 1
-```
+{% endhighlight %}
 
 В результате работы скрипта получаются диагностические файлы с контурами,
 а также команды, необходимые для получения итоговых фотографий. 
-```bash
+{% highlight bash %}
 # img1.pnm has 6 images
 convert img1.pnm -crop 4650x7410+5350+6620 img1_1.pnm
 convert img1.pnm -crop 4590x7440+650+6590 img1_2.pnm
@@ -304,7 +304,7 @@ convert img2.pnm -crop 4740x6330+180+7700 img2_1.pnm
 convert img2.pnm -crop 4490x6350+5030+7680 img2_2.pnm
 convert img2.pnm -crop 4540x5870+5120+1470 img2_3.pnm
 convert img2.pnm -crop 4450x5980+340+1350 img2_4.pnm
-```
+{% endhighlight %}
 
 Конечно, для каждого набора файлов нужно подбирать свои параметры
 определения контуров. Но в целом, это намного быстрее чем ручная работа.
