@@ -23,8 +23,18 @@ permalink: /2017/01/11/command-reference.html
 # local branch
 git branch -d some_feature
 # remote branch
-push origin :some_feature
+git push origin :some_feature
 ```
+
+Удаление локальной и удаленной метки
+
+```bash
+# local tag
+git tag --delete tagname
+# remote tag
+git push origin :tagname
+```
+
 Создание новой пустой ветки
 
 ```bash
