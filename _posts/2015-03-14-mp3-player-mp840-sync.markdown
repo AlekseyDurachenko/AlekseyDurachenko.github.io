@@ -4,7 +4,7 @@ comments: true
 uid: 2015-03-14-mp3-player-mp840-sync
 title: "Автоматическая синхронизация flash памяти MP3 плеера с локальным каталогом"
 date: 2015-03-14 22:09:00
-last_modified_at: 2015-03-14 22:09:00
+last_modified_at: 2017-02-08 12:00:00
 categories: linux
 tags: bash rsync linux udev dbus sync
 permalink: /2015/03/14/mp3-player-mp840-sync.html
@@ -27,7 +27,8 @@ permalink: /2015/03/14/mp3-player-mp840-sync.html
 
 
 Описанная ниже реализация тестировалась на дистрибутиве
-[GNU/Linux Kubuntu 14.04](http://www.kubuntu.org/news/kubuntu-14.04),
+[GNU/Linux Kubuntu 14.04](http://www.kubuntu.org/news/kubuntu-14.04) и
+[GNU/Linux Kubuntu 16.04](http://www.kubuntu.org/news/kubuntu-16-04-lts-release-anouncement/),
 но, в принципе, ничего не мешает использовать её на любом другом дистрибутиве с udev.
 
 Принцип работы синхронизации следующий: после подключения MP3 плеера (определяется
@@ -85,22 +86,31 @@ fi
 # detect the dbus session of the current user
 USERNAME=`whoami`
 export DBUS_SESSION_BUS_ADDRESS=`ps -u $USERNAME e | grep -Eo 'dbus-daemon.*address=unix:abstract=/tmp/dbus-[A-Za-z0-9]{10}' | tail -c35`
+# for kde5 because previous recept is not working
+if [ -z "$DBUS_SESSION_BUS_ADDRESS" ]
+then
+  pid=$(pgrep -u $USERNAME kdeconnectd)
+  dbus=$(grep -z DBUS_SESSION_BUS_ADDRESS /proc/$pid/environ | sed 's/DBUS_SESSION_BUS_ADDRESS=//' )
+  export DBUS_SESSION_BUS_ADDRESS=$dbus
+fi
 
 # notification of the beginning of the synchronization
+echo "Synchronization is beginning"
+espeak -p 1 "Synchronization is beginning"
 if [ ! -z "$DBUS_SESSION_BUS_ADDRESS" ]
 then
     notify-send "MP3 Player MP840" "Synchronization is beginning..."
 fi
 
 # synchronization: mirror
-# rsync -va --delete /home/username/MySync/TranscendMP840/sdcard/ /media/MP840/sdcard/
-# compare only by size
 rsync -vr --delete --size-only /home/username/MySync/TranscendMP840/sdcard/ /media/MP840/sdcard/
 
 # operation may take a long time, due to `async` in the /etc/fstab
 umount -l /media/MP840
 
 # notification of the completion of synchronization
+echo "Synchronization is complete"
+espeak -p 1 "Synchronization is complete"
 if [ ! -z "$DBUS_SESSION_BUS_ADDRESS" ]
 then
     notify-send "MP3 Player MP840" "Synchronization is complete!"
@@ -116,6 +126,12 @@ exit 0
 во-вторых, может случиться так, что на плеер будут записаны файлы в обход
 мастер копии. В последнем случае следует не забыть удалить данный файл,
 чтобы избежать потери данных.
+
+Для работы скрипта вам потребуются установить пакеты `libnotify-bin` и `espeak`.
+
+UPD: добавлена поддержка kde5 и голосовые оповещения
+
+
 
 ### Ссылки ###
 
