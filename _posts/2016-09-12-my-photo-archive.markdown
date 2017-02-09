@@ -4,7 +4,7 @@ comments: true
 uid: 2016-09-12-my-photo-archive
 title: Организация архива фотографий
 date: 2016-09-12 15:08:00
-last_modified_at: 2016-09-12 15:08:00
+last_modified_at: 2017-02-09 12:19:00
 categories: photo
 tags: darktable digiKam photo
 permalink: /2016/09/12/my-photo-archive.html
@@ -429,8 +429,75 @@ export_photo P9086697.ORF
 ### Скрипт make_photos_for_flickr.sh  
 Скрипт создает JPEG файлы предназначенные для [Flickr][flickr].
 
+В фотографиях остается минимум метаинформации:
+- gps метки;
+- модель камеры и линзы;
+- ISO, выдержка, диафрагма, фокусное расстояние;
+- время создания фотографии
+
+Так же в фотографию добавляется информация о лицензировании.
+
 ```bash
-# Скрипт еще не написан
+#!/bin/bash
+
+DST_PATH=`pwd`/uploaded/flickr
+
+mkdir -p ${DST_PATH}
+
+function mark_cc_by_sa {
+    exiftool \
+    -by-line="Aleksey Durachenko" \
+    -CopyrightNotice="(c) Aleksey Durachenko; Licence: Creative Commons BY-SA 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/)" \
+    -Artist="Aleksey Durachenko" \
+    -Copyright="(c) Aleksey Durachenko; Licence: Creative Commons Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/)" \
+    -XMP-cc:License="https://creativecommons.org/licenses/by-sa/4.0/" \
+    -overwrite_original $1
+}
+
+
+function export_photo {
+    echo "Processing $1"
+    # export raw file to jpeg file
+    darktable-cli $1 $1.xmp ${DST_PATH}/${1%%.*}.jpg
+    # remove all metadata for sercurity
+    exiftool -overwrite_original -all= ${DST_PATH}/${1%%.*}.jpg
+
+    # copy metadata from the original jpeg file
+    if [ -f ../${1%%.*}.JPG ];
+    then
+        exiftool \
+          -overwrite_original \
+          -TagsFromFile ../${1%%.*}.JPG \
+          -gps:all \
+          -model -make -lensmodel \
+          -iso -fnumber -exposuretime -apterture -focallength -datetimeoriginal -modifydate -creatdate \
+          ${DST_PATH}/${1%%.*}.jpg
+    else
+        exiftool \
+          -overwrite_original \
+          -TagsFromFile ../${1%%.*}.jpg \
+          -gps:all \
+          -model -make -lensmodel \
+          -iso -fnumber -exposuretime -apterture -focallength -datetimeoriginal -modifydate -creatdate \
+          ${DST_PATH}/${1%%.*}.jpg
+    fi
+
+    # apply license
+    mark_cc_by_sa ${DST_PATH}/${1%%.*}.jpg
+}
+
+
+# list of the photos
+export_photo P8186449.ORF
+export_photo P8186483.ORF
+export_photo P8186485.ORF
+export_photo P8186486.ORF
+export_photo P8186488.ORF
+export_photo P8186494.ORF
+export_photo P8186507.ORF
+export_photo P8186516.ORF
+export_photo P8186520.ORF
+export_photo P8186522.ORF
 ```
 
 <span id="backup.sh"></span>
@@ -476,6 +543,8 @@ rsync -a --delete --numeric-ids --no-relative --delete-excluded $SRC_PATH $CUR_D
 processed
 uploaded
 ```
+
+UPD: добавлен скрипт подготовки фотографий для [Flickr][flickr]
 
 [imagemagick]: http://www.imagemagick.org/script/index.php
 [gimp]: https://www.gimp.org/
